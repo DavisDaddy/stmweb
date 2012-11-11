@@ -1,0 +1,166 @@
+@import url('../twentyten/style.css');
+
+/*
+Theme Name: The Twentyten Stm
+Theme URI: URI to your theme
+Description: Twentyten child-theme created especially for the Church of St Martin 2012-08-07
+Author: Gail Gong
+Version: 0.0.1
+Template: twentyten
+Tags: black, custom-header, fixed width, photoblogging, sticky-post, theme-options, threaded-comments, three columns, white, fix-later
+*/
+/* Changes the width of the header and shifts it 20px to the left */
+#header {
+	padding: 0;
+	margin: 0 0 0 -20px;
+	background: #fff;
+	width: 980px;
+}
+
+/* Sets the width of the header content */
+#branding {
+	width: 980px;
+}
+
+/* Positions the branding image */
+#branding img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-top: none;
+	border-bottom: none;
+	float: none;
+	z-index: 0;
+}
+
+/* Gives the branding image a reference to position based on and sets the overall height */
+#masthead {
+	position: relative;
+	height: 310px;
+}
+
+/* Lifts the site title to the top and changes its position and appearance */
+#site-title {
+	position: absolute;
+	margin: 0;
+	float:none;
+	top: 170px;
+	left: 20px;
+	font-size: 40px;
+	/* z-index: 10; Commenting this puts "gails-playground" behind image */
+}
+
+/* Lifts the site description to the top and changes its position and appearance */
+#site-description {
+	float: none;
+	font-style: normal;
+	margin: 0;
+	position: absolute;
+	color: #ffffff;
+	text-transform: uppercase;
+	top: 150px;
+	left: 20px;
+	width: 100%;
+	/*z-index: 10;  Commenting this out removes the "Just another wp site in the header " */
+}
+
+
+
+/* Gail 2012-08-09 */
+#masthead {
+	height: 180px;
+}
+
+#site-title {
+	top: 20px;
+
+}
+#main {
+width: 960px;
+}
+#content {
+margin: 0 280px 0 0px;
+}
+#access {
+	position: absolute;
+	bottom: 0px;
+        left: 20px;
+
+}
+#access .menu-header,
+div.menu {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+#sidebar-link {
+font-size: 18px;
+font-weight: 400;
+color: red;
+padding: 20px;
+text-align: center;
+font-family: "myriad pro", "helvetica";
+}
+
+span.block {
+display: block;
+}
+
+div.hours {
+font-family: "myriad pro", "helvetica", "DejaVu Sans", "sans-serif";
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+}
+div.hours-title {
+font-family: "myriad pro", "helvetica", "DejaVu Sans",  "sans-serif";
+font-size: 18px;
+font-weight: 600;
+text-align: center;
+}
+
+#colophon {
+border-top: none;
+
+}
+body {
+font-family: "myriad pro", "helvetica";
+}
+#site-generator {
+text-align: left;
+}
+.entry-content {
+width: 700px;
+}
+
+/* Mike, 2012-11-05 */
+
+#mhcontent {
+  width: 100%;
+  background-color: LightGreen;
+}
+
+#people {
+  width: 50%;
+  /* background-color: Khaki; */
+  overflow: auto;
+  margin-left: 50px;
+}
+
+#people td, th {
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+#mhsidebar {
+  /*position: fixed; */ 
+  /* position: relative; */
+  position: absolute;
+  top: 250px;
+  /*right: 600px; */
+ /* margin-bottom: 800%; */
+  margin-left:720px;
+  /* background-color: goldenrod; */
+  width: 220px;
+}
+

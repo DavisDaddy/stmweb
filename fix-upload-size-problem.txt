@@ -1,0 +1,16 @@
+###### Change the PHP configuration
+$ sudo diff /etc/php5/apache2/php.ini /etc/php5/apache2/php.ini.20121109
+740c740
+< post_max_size = 72M
+---
+> post_max_size = 8M
+891c891
+< upload_max_filesize = 72M
+---
+> upload_max_filesize = 8M
+
+###### Restart the web server
+$ sudo invoke-rc.d apache2 stop
+ * Stopping web server apache2      ... waiting                  [ OK ]
+$ sudo invoke-rc.d apache2 start
+ * Starting web server apache2                                   [ OK ] 
