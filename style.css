@@ -196,6 +196,24 @@ width: 700px;
   margin-bottom: 0;
 }
 
+#photos {
+  width: 60%;
+  overflow: auto;
+  margin-left: 50px;
+}
+
+#photos h2 {
+  color: blue;
+}
+
+#photos h1 {
+  color: black;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.3em;
+  margin-bottom: 0;
+}
+
 
 
 #mhsidebar {
