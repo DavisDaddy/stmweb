@@ -91,15 +91,6 @@ margin: 0 280px 0 0px;
 div.menu {
   font-size: 18px;
   font-weight: 200;
-  padding-left: 5px;
-}
-
-.menu-item {
-  padding: 0px 0px 0px 15px;
-}
-
-.sub-menu li {
-  padding: 0px;
 }
 
 #sidebar-link {
